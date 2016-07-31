@@ -17,6 +17,15 @@ html {
   font-weight: 100;
 }
 
+.nameHeader {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 32px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
 .repHeader {
   padding: 0px;
   margin: 0px;
@@ -58,6 +67,7 @@ img {
   color: #0B3C4C;
   height: 500px;
   text-align: center;
+  /*display: flex;*/
 }
 
 .graphDiv {
