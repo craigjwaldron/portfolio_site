@@ -8,6 +8,7 @@ body {
 html {
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 .mainHeader {
@@ -27,27 +28,41 @@ html {
 
 .introDiv {
   background-color: #0B3C4C;
-  color: white;
-  height: 300px;
+  color: #1A8BB2;
+  height: 180px;
+  text-align: center;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .skillsDiv {
   background-color: #0E5066;
-  color: #1A8BB2;
-  height: 500px;
+  color: #0B3C4C;
+  max-height: 870px;
   text-align: center;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .softDiv {
   background-color: #13647F;
-  color: white;
+  color: #0B3C4C;
   height: 500px;
   text-align: center;
 }
 
 .graphDiv {
   background-color: #127899;
-  color: white;
+  color: #0B3C4C;
   height: 500px;
   text-align: center;
 }
