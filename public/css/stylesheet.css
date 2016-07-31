@@ -21,36 +21,43 @@ html {
   padding: 0px;
   margin: 0px;
   font-weight: 100;
-  letter-spacing: 2px;
-  font-size: 32px;
+  letter-spacing: 6px;
+  font-size: 28px;
   font-family: 'Maven Pro', sans-serif;
 }
 
 .repHeader {
-  padding: 0px;
+  padding: 50px;
   margin: 0px;
   font-weight: 100;
   letter-spacing: 10px;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Maven Pro', sans-serif;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
 
 .introDiv {
   background-color: #0B3C4C;
   color: #1A8BB2;
-  height: 180px;
+  height: 70px;
   text-align: center;
   float: none;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .skillsDiv {
   background-color: #0E5066;
+  padding-top: 50px;
+  padding-bottom: 40px;
   color: #0B3C4C;
-  max-height: 870px;
+  height: 900px;
   text-align: center;
   float: none;
   margin-right: auto;
@@ -62,12 +69,19 @@ img {
   height: auto;
 }
 
+video {
+  padding: none;
+}
+
 .softDiv {
-  background-color: #13647F;
+  background-color: #0E5066;
   color: #0B3C4C;
-  height: 500px;
+  max-height: 870px;
   text-align: center;
-  /*display: flex;*/
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 30px;
 }
 
 .graphDiv {
@@ -78,7 +92,7 @@ img {
 }
 
 footer {
-  background-color: #1A8BB2;
+  background-color: #0B3C4C;
   height: 100px;
   color: white;
   font-size: 20px;
