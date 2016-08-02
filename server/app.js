@@ -16,8 +16,8 @@ app.get('/',function( req, res ){
 });
 
 // Spinning up the server
-app.listen(process.env.PORT || 3000, function(req, res){
-  console.log("Listening on port 3000");
+app.listen(process.env.PORT || 5000, function(req, res){
+  console.log("Listening on port 5000");
 });
 
 // --------------------------------------------------------
