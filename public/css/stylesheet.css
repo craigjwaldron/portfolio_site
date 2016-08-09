@@ -69,17 +69,15 @@ img {
   height: auto;
 }
 
-video {
-  padding-right: 80px;
-  padding-left: 80px;
-}
-
 .softDiv {
+  text-align: center;
+  /*display: inline-flex;*/
   background-color: #0E5066;
   color: #0B3C4C;
-  max-height: 870px;
-  text-align: center;
-  float: none;
+  height: 1070px;
+  width: 100%;
+  /*text-align: center;
+  float: none;*/
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 30px;
