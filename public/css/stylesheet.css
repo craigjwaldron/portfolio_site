@@ -11,10 +11,18 @@ body {
 }
 
 html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*html {
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
-}
+}*/
 
 .video {
   height: 190px;
@@ -32,6 +40,11 @@ html {
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 40px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.subHeader {
+  font-weight: lighter;
   font-family: 'Maven Pro', sans-serif;
 }
 
@@ -57,7 +70,7 @@ video {
   float: none;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 40px;
+  padding-top: 140px;
   padding-bottom: 40px;
 }
 
