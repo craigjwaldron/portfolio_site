@@ -11,9 +11,13 @@ i {
   padding: 10px;
 }
 
+h3 {
+  padding-bottom: 10px;
+}
+
 hr {
-  width: 20%;
-  padding-top: 10px;
+  width: 15em;
+
 }
 
 .mainHeader {
