@@ -39,13 +39,11 @@
 
     <div class="row" ng-controller="ModalDemoCtrl as $ctrl">
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail hovereffect">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.openComponentModal()">
           <img src="/assets/prosmash.png" id="projects">
           <div class="overlay">
             <h1>PROSMASH</h1>
-            <p>
-              <a ng-click="$ctrl.openComponentModal()">LINK HERE</a>
-            </p>
+            <p>CLICK FOR MORE</p>
           </div>
         </div>
       </div>

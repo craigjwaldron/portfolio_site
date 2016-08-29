@@ -117,7 +117,7 @@ img#projects{
 /*BOOTSTRAP CUSTOMIZATION*/
 
 .thumbnail:hover {
-  /*cursor: pointer;*/
+  cursor: pointer;
 }
 
 .thumbnail {
