@@ -51,7 +51,7 @@ a {
   margin: 0px;
   font-weight: 900;
   letter-spacing: 3px;
-  font-size: 60px;
+  font-size: 80px;
   font-family: 'Maven Pro', sans-serif;
 }
 
@@ -86,4 +86,15 @@ a {
   margin-left: auto;
   padding-top: 140px;
   padding-bottom: 40px;
+}
+
+.aboutDiv {
+  color: white;
+  text-align: center;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  font-family: 'Maven Pro', sans-serif;
 }
