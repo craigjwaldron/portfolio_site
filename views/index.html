@@ -22,6 +22,7 @@
   </head>
 
   <body>
+
     <div class="introDiv">
 
       <h1 class="nameHeader">CRAIG WALDRON</h1>
@@ -38,18 +39,14 @@
 
     <div class="row" ng-controller="ModalDemoCtrl as $ctrl">
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img ng-click="$ctrl.openComponentModal()" src="/assets/prosmash.png" alt="...">
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="/assets/prosmash.png" alt="...">
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <img src="/assets/prosmash.png" alt="...">
+        <div class="thumbnail hovereffect">
+          <img src="/assets/prosmash.png" id="projects">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>
+              <a ng-click="$ctrl.openComponentModal()">LINK HERE</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -72,13 +69,6 @@
                 <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancel</button>
             </div>
         </script>
-
-        <button type="button" class="btn btn-default" ng-click="$ctrl.open()">Open me!</button>
-        <button type="button" class="btn btn-default" ng-click="$ctrl.open('lg')">Large modal</button>
-        <button type="button" class="btn btn-default" ng-click="$ctrl.open('sm')">Small modal</button>
-        <button type="button" class="btn btn-default" ng-click="$ctrl.toggleAnimation()">Toggle Animation ({{ $ctrl.animationsEnabled }})</button>
-        <button type="button" class="btn btn-default" ng-click="$ctrl.openComponentModal()">Open a component modal!</button>
-        <div ng-show="$ctrl.selected">Selection from a modal: {{ $ctrl.selected }}</div>
     </div>
 
   </body>
