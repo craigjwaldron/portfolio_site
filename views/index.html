@@ -23,21 +23,34 @@
 
   <body>
 
-    <div class="introDiv">
+    <div class="jumbotron">
+      <div class="introDiv container">
+        <h1 class="nameHeader"> CRAIG WALDRON </h1>
 
-      <h1 class="nameHeader">CRAIG WALDRON</h1>
+        <div>
+          <p>HIGHLY MOTIVATED FRONT-END DEVELOPER WITH A BACKGROUND IN GRAPHIC DESIGN. I POSSESS A DEEP PASSION FOR FUNCTIONALITY BLENDED WITH BEAUTY.</p>
+        </div>
 
-      <div class="page-header aboutDiv">
-        <p>HIGHLY MOTIVATED FRONT-END DEVELOPER WITH A BACKGROUND IN GRAPHIC DESIGN. I POSSESS A DEEP PASSION FOR FUNCTIONALITY BLENDED WITH BEAUTY.</p>
+        <!-- <a href="https://www.linkedin.com/in/waldroncraig"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        <a href="https://github.com/craigjwaldron"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.behance.net/craigjwaldron"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a> -->
       </div>
+    </div>
 
-      <a href="https://www.linkedin.com/in/waldroncraig"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-      <a href="https://github.com/craigjwaldron"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-      <a href="https://www.behance.net/craigjwaldron"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a>
-
+    <div class="aboutDiv">
+      <p>hi</p>
     </div>
 
     <div class="row" ng-controller="ModalDemoCtrl as $ctrl">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.openComponentModal()">
+          <img src="/assets/prosmash.png" id="projects">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail hovereffect" ng-click="$ctrl.openComponentModal()">
           <img src="/assets/prosmash.png" id="projects">
