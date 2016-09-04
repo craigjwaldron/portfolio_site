@@ -93,6 +93,7 @@ a {
   margin-left: auto;
   padding-top: 40px;
   padding-bottom: 40px;
+  height: 600px;
 }
 
 .linkDiv{
@@ -160,7 +161,7 @@ a {
 }
 
 .col-sm-6.col-md-4 {
-  padding: 0px;
+  padding: 20px;
 }
 
 .hovereffect {
