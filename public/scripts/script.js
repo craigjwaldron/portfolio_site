@@ -1,5 +1,20 @@
 console.log("hello from scripts.js");
 
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 angular.module('myApp', ['ngAnimate', 'ngSanitize', 'ui.bootstrap']);
 angular.module('myApp').controller('ModalDemoCtrl', function ($uibModal, $log) {
   var $ctrl = this;
