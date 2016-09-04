@@ -1,5 +1,6 @@
 console.log("hello from scripts.js");
 
+// Href button transition (jQuery)
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -8,13 +9,14 @@ $(function() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 1200);
         return false;
       }
     }
   });
 });
 
+// Angular
 angular.module('myApp', ['ngAnimate', 'ngSanitize', 'ui.bootstrap']);
 angular.module('myApp').controller('ModalDemoCtrl', function ($uibModal, $log) {
   var $ctrl = this;
@@ -68,9 +70,6 @@ angular.module('myApp').controller('ModalDemoCtrl', function ($uibModal, $log) {
   };
 });
 
-// Please note that $uibModalInstance represents a modal window (instance) dependency.
-// It is not the same as the $uibModal service used above.
-
 angular.module('myApp').controller('ModalInstanceCtrl', function ($uibModalInstance, items) {
   var $ctrl = this;
   $ctrl.items = items;
@@ -86,8 +85,6 @@ angular.module('myApp').controller('ModalInstanceCtrl', function ($uibModalInsta
     $uibModalInstance.dismiss('cancel');
   };
 });
-
-// Please note that the close and dismiss bindings are from $uibModalInstance.
 
 angular.module('myApp').component('modalComponent', {
   templateUrl: 'myModalContent.html',
