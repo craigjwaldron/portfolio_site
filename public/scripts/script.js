@@ -1,5 +1,6 @@
 console.log("hello from scripts.js");
 
+
 // Href button transition (jQuery)
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
