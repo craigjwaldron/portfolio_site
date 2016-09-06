@@ -25,12 +25,29 @@ angular.module('myApp').controller('ModalDemoCtrl', function ($uibModal, $log) {
 
   $ctrl.animationsEnabled = true;
 
-  $ctrl.open = function (size) {
+  $ctrl.prosmash = function (size) {
     var modalInstance = $uibModal.open({
       animation: $ctrl.animationsEnabled,
       ariaLabelledBy: 'modal-title',
       ariaDescribedBy: 'modal-body',
-      templateUrl: 'myModalContent.html',
+      templateUrl: 'proSmash.html',
+      controller: 'ModalInstanceCtrl',
+      controllerAs: '$ctrl',
+      size: size,
+      resolve: {
+        items: function () {
+          return $ctrl.items;
+        }
+      }
+    });
+};
+
+  $ctrl.malia = function (size) {
+    var modalInstance = $uibModal.open({
+      animation: $ctrl.animationsEnabled,
+      ariaLabelledBy: 'modal-title',
+      ariaDescribedBy: 'modal-body',
+      templateUrl: 'maliaBoat.html',
       controller: 'ModalInstanceCtrl',
       controllerAs: '$ctrl',
       size: size,
@@ -45,24 +62,6 @@ angular.module('myApp').controller('ModalDemoCtrl', function ($uibModal, $log) {
       $ctrl.selected = selectedItem;
     }, function () {
       $log.info('Modal dismissed at: ' + new Date());
-    });
-  };
-
-  $ctrl.openComponentModal = function () {
-    var modalInstance = $uibModal.open({
-      animation: $ctrl.animationsEnabled,
-      component: 'modalComponent',
-      resolve: {
-        items: function () {
-          return $ctrl.items;
-        }
-      }
-    });
-
-    modalInstance.result.then(function (selectedItem) {
-      $ctrl.selected = selectedItem;
-    }, function () {
-      $log.info('modal-component dismissed at: ' + new Date());
     });
   };
 

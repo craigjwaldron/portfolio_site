@@ -33,6 +33,7 @@
         <!-- <div class="page-header"> -->
 
           <h1 class="nameHeader"> CRAIG WALDRON </h1>
+
           <h3 class="subHeader"> FRONT-END DEVELOPER </h3>
 
         <!-- </div> -->
@@ -47,6 +48,7 @@
           <img class="col-md-6 selfPort img-responsive" src="/assets/photo_self.jpg" alt="" />
         <div class="col-md-6 selfText">
           <h2 class="meTitle">I HAVE AN EXTRAORDINARY PASSION FOR FUNCTIONALITY BLENDED WITH BEAUTY.</h2>
+
           <p class="mePara"> I am a recent graduate of Prime Digital Academy where I earned a certificate in Full-Stack Development. Additionally, I have a background in graphic design and find great joy in combining my two skill sets. Check out my repertoire below. </p>
         </div>
       </div>
@@ -55,10 +57,12 @@
       </div>
     </div>
 
-    <div class="row projectDiv" ng-controller="ModalDemoCtrl as $ctrl">
+<!-- PROJECT THUMBNAIL LAYOUT -->
+<div class="allProjects" ng-controller="ModalDemoCtrl as $ctrl">
+    <div class="row projectDiv">
       <div class="col-md-6">
-        <div class="thumbnail hovereffect" ng-click="$ctrl.open('lg')">
-          <img src="/assets/malia.jpg" class="projectsRight">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.malia('lg')">
+          <img src="/assets/malia.jpg" class="projectLrg">
           <div class="overlay">
             <h1>MALIA DRAGON BOAT RACING</h1>
             <p>CLICK FOR MORE</p>
@@ -66,34 +70,216 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="thumbnail hovereffect" ng-click="$ctrl.open('lg')">
-          <img src="/assets/prosmash.jpg" class="projectsLeft">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+          <img src="/assets/prosmash.jpg" class="projectLrg">
           <div class="overlay">
             <h1>PROSMASH</h1>
             <p>CLICK FOR MORE</p>
           </div>
         </div>
       </div>
+    </div>
+
+<!-- SECOND ROW     -->
+    <div class="row projectDiv">
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.malia('lg')">
+          <img src="/assets/task_attack.jpg" class="projectsRight">
+          <div class="overlay">
+            <h1>MALIA DRAGON BOAT RACING</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+          <img src="/assets/calc.jpg" class="projectsLeft">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+          <img src="/assets/yir_main.jpg">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- THIRD ROW     -->
+    <div class="row projectDiv">
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.malia('lg')">
+          <img src="/assets/brochure.jpg" class="projectsRight">
+          <div class="overlay">
+            <h1>MALIA DRAGON BOAT RACING</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+          <img src="/assets/mn.jpg" class="projectsLeft">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+          <img src="/assets/kids.jpg">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- FOURTH ROW     -->
+        <div class="row projectDiv">
+          <div class="col-md-4">
+            <div class="thumbnail hovereffect" ng-click="$ctrl.malia('lg')">
+              <img src="/assets/graff.jpg" class="projectsRight">
+              <div class="overlay">
+                <h1>MALIA DRAGON BOAT RACING</h1>
+                <p>CLICK FOR MORE</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+              <img src="/assets/straw.jpg" class="projectsLeft">
+              <div class="overlay">
+                <h1>PROSMASH</h1>
+                <p>CLICK FOR MORE</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+              <img src="/assets/cafe.jpg">
+              <div class="overlay">
+                <h1>PROSMASH</h1>
+                <p>CLICK FOR MORE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- FIFTH ROW     -->
+  <div class="row projectDiv">
+    <div class="col-md-4">
+      <div class="thumbnail hovereffect" ng-click="$ctrl.malia('lg')">
+        <img src="/assets/quench.jpg" class="projectsRight">
+        <div class="overlay">
+          <h1>MALIA DRAGON BOAT RACING</h1>
+          <p>CLICK FOR MORE</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+        <img src="/assets/bound.jpg" class="projectsLeft">
+        <div class="overlay">
+          <h1>PROSMASH</h1>
+          <p>CLICK FOR MORE</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+        <img src="/assets/nexgen.jpg">
+        <div class="overlay">
+          <h1>PROSMASH</h1>
+          <p>CLICK FOR MORE</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FIFTH ROW     -->
+    <div class="row projectDiv">
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.malia('lg')">
+          <img src="/assets/port.jpg" class="projectsRight">
+          <div class="overlay">
+            <h1>MALIA DRAGON BOAT RACING</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+          <img src="/assets/jayf.jpg" class="projectsLeft">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail hovereffect" ng-click="$ctrl.prosmash('lg')">
+          <img src="/assets/bob.jpg">
+          <div class="overlay">
+            <h1>PROSMASH</h1>
+            <p>CLICK FOR MORE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- =========== PROSMASH ========== -->
+
+      <div ng-controller="ModalDemoCtrl as $ctrl">
+          <script type="text/ng-template" id="maliaBoat.html">
+              <div class="modal-header">
+                  <h3 class="modal-title" id="modal-title">MALIA DRAGON BOAT RACING APPLICATION</h3>
+              </div>
+
+
+              <div class="modal-footer">
+                  <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">OK</button>
+                  <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancel</button>
+              </div>
+          </script>
+      </div>
+
+
+<!-- =========== PROSMASH ========== -->
 
     <div ng-controller="ModalDemoCtrl as $ctrl">
-        <script type="text/ng-template" id="myModalContent.html">
+        <script type="text/ng-template" id="proSmash.html">
+
             <div class="modal-header">
-                <h3 class="modal-title" id="modal-title">I'm a modal!</h3>
+                <h3 class="modal-title" id="modal-title">PROSMASH APPLICATION</h3>
+                <p>Pro Smash is a weekly to-do list that gives users a birds-eye view of all their tasks for a particular week. At the core, Pro Smash enables users to distribute tasks throughout the week in order to effectively and efficiently accomplish them. </p>
+
+                <img class="imageHeader" src="/assets/prosmash_header.jpg">
             </div>
+
             <div class="modal-body" id="modal-body">
-                <ul>
-                    <li ng-repeat="item in $ctrl.items">
-                        <a href="#" ng-click="$event.preventDefault(); $ctrl.selected.item = item">{{ item }}</a>
-                    </li>
-                </ul>
-                Selected: <b>{{ $ctrl.selected.item }}</b>
+              <img class="imageHeader" src="/assets/prosmash_mock_1.jpg">
+              <img class="imageHeader" src="/assets/prosmash_mock_2.jpg">
+
             </div>
+
+
             <div class="modal-footer">
                 <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">OK</button>
                 <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancel</button>
             </div>
         </script>
     </div>
+
+
 
   </body>
 

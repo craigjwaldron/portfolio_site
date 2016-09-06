@@ -139,6 +139,7 @@ a {
 
 .projectDiv {
   background-color: #1D374C;
+  margin-bottom: 10px;
 }
 
 .meDiv {
@@ -161,14 +162,10 @@ a {
   max-height:100%;
 }
 
-.projectsLeft {
-  float: left;
-  margin-top: 50px;
-}
-
-.projectsRight {
-  float: right;
-  margin-top: 50px;
+.projectLrg {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
 }
 
 .aboutDiv {
@@ -192,7 +189,8 @@ a {
 }
 
 .meTitle {
-  font-weight: bold;
+  font-weight: 900;
+  color: #1D374C;
 }
 
 /*.mePara {
@@ -242,12 +240,33 @@ a {
   margin-top: 50px;
 }
 
+.modal-title {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+}
+
+.imageHeader {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .app-modal-window .modal-dialog {
   width: 500px;
 }
 
+.allProjects {
+ padding: 5em;
+ padding-left: 10em;
+ padding-right: 10em;
+ background-color: #1D374C;
+}
+
 .col-md-4 {
-  margin: 40px;
+  margin: 0px;
 }
 
 .hovereffect {
