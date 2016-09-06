@@ -161,6 +161,16 @@ a {
   max-height:100%;
 }
 
+.projectsLeft {
+  float: left;
+  margin-top: 50px;
+}
+
+.projectsRight {
+  float: right;
+  margin-top: 50px;
+}
+
 .aboutDiv {
   background-color: #FFFFFF;
   float: none;
@@ -229,14 +239,15 @@ a {
   top: 0;
   left: 0;
   padding: 50px 20px;
+  margin-top: 50px;
 }
 
 .app-modal-window .modal-dialog {
   width: 500px;
 }
 
-.col-sm-6.col-md-4 {
-  padding: 0px;
+.col-md-4 {
+  margin: 40px;
 }
 
 .hovereffect {
@@ -263,7 +274,7 @@ a {
   display: block;
   position: relative;
   max-width: none;
-  width: calc(100% + 20px);
+  /*width: calc(100% + 20px);*/
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(-10px,0,0);
