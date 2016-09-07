@@ -10,7 +10,6 @@ body {
    margin: 0px;
    padding: 0px;
    overflow-x: hidden;
-   /*background: #305C7F;*/
 }
 
 i {
@@ -51,6 +50,33 @@ a {
 .ghost-button-transition:active {
    background-color: #fff;
    color: #000;
+   transition: background-color 0.3s ease-in,
+               color 0.3s ease-in;
+   text-decoration: none;
+}
+
+.ghost-button-transition-2 {
+ display: inline-block;
+ width: 400px;
+ padding: 8px;
+ margin-left: 50px;
+ font-weight: lighter;
+ letter-spacing: 3px;
+ color: #A9A9A9;
+ border: 1px solid #A9A9A9;
+ text-align: center;
+ outline: none;
+ text-decoration: none;
+ transition: background-color 0.2s ease-out,
+             color 0.2s ease-out;
+
+}
+
+.ghost-button-transition-2:hover,
+.ghost-button-transition-2:active {
+   /*background-color: #82A4BF;*/
+   color: #425462;
+   border: 1px solid #425462;
    transition: background-color 0.3s ease-in,
                color 0.3s ease-in;
    text-decoration: none;
@@ -182,20 +208,17 @@ a {
 }
 
 .selfText {
-  padding: 50px;
+  padding: 40px 50px 5px 50px;
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .meTitle {
-  font-weight: 900;
-  color: #1D374C;
+  font-weight: bold;
+  color: #425462;
+  font-family: century gothic, gill sans;
 }
-
-/*.mePara {
-  padding: 10px;
-}*/
 
 .introMe {
   color: #82A4BF;

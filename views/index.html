@@ -48,8 +48,10 @@
           <img class="col-md-6 selfPort img-responsive" src="/assets/photo_self.jpg" alt="" />
         <div class="col-md-6 selfText">
           <h2 class="meTitle">I HAVE AN EXTRAORDINARY PASSION FOR FUNCTIONALITY BLENDED WITH BEAUTY.</h2>
-
-          <p class="mePara"> I am a recent graduate of Prime Digital Academy where I earned a certificate in Full-Stack Development. Additionally, I have a background in graphic design and find great joy in combining my two skill sets. Check out my repertoire below. </p>
+          <p class="mePara"> I am a recent graduate of Prime Digital Academy where I earned a certificate in Full-Stack Development. Additionally, I have a background in graphic design and find great joy in combining my two skill sets. Please check out my repertoire below to see which technologies I have worked with. </p>
+        </div>
+        <div>
+          <a class="ghost-button-transition-2" href="#projects" data-transition="slide">MY PROJECTS</a>
         </div>
       </div>
       <div class="skillsDiv">
@@ -58,7 +60,7 @@
     </div>
 
 <!-- PROJECT THUMBNAIL LAYOUT -->
-<div class="allProjects" ng-controller="ModalDemoCtrl as $ctrl">
+<div id="projects" class="allProjects" ng-controller="ModalDemoCtrl as $ctrl">
     <div class="row projectDiv">
       <div class="col-md-6">
         <div class="thumbnail hovereffect" ng-click="$ctrl.malia('lg')">
@@ -256,7 +258,6 @@
           </script>
       </div>
 
-
 <!-- =========== PROSMASH ========== -->
 
     <div ng-controller="ModalDemoCtrl as $ctrl">
@@ -265,16 +266,14 @@
             <div class="modal-header">
                 <h3 class="modal-title" id="modal-title">PROSMASH APPLICATION</h3>
                 <p>Pro Smash is a weekly to-do list that gives users a birds-eye view of all their tasks for a particular week. At the core, Pro Smash enables users to distribute tasks throughout the week in order to effectively and efficiently accomplish them. </p>
-
-                <img class="imageHeader" src="/assets/prosmash_header.jpg">
             </div>
 
             <div class="modal-body" id="modal-body">
+              <img class="imageHeader" src="/assets/prosmash_2.jpg">
               <img class="imageHeader" src="/assets/prosmash_mock_1.jpg">
               <img class="imageHeader" src="/assets/prosmash_mock_2.jpg">
 
             </div>
-
 
             <div class="modal-footer">
               <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">BACK TO PROJECTS</button>
