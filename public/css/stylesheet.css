@@ -82,6 +82,32 @@ a {
    text-decoration: none;
 }
 
+.ghost-button-transition-3 {
+ display: inline-block;
+ width: 400px;
+ padding: 8px;
+ font-weight: lighter;
+ letter-spacing: 3px;
+ color: #A9A9A9;
+ border: 1px solid #A9A9A9;
+ text-align: center;
+ outline: none;
+ text-decoration: none;
+ transition: background-color 0.2s ease-out,
+             color 0.2s ease-out;
+
+}
+
+.ghost-button-transition-3:hover,
+.ghost-button-transition-3:active {
+   /*background-color: #82A4BF;*/
+   color: #425462;
+   border: 1px solid #425462;
+   transition: background-color 0.3s ease-in,
+               color 0.3s ease-in;
+   text-decoration: none;
+}
+
 .fa-linkedin:hover {
   color: #A9A9A9;
   cursor: pointer;
