@@ -248,12 +248,17 @@ a {
   padding: 1em 0 1em 0;
 }
 
+.modal-body {
+  text-align: center;
+  padding: 0px;
+  margin: none;
+}
+
 .imageHeader {
   display: block;
   margin: auto;
   max-width: 100%;
   height: auto;
-  margin-bottom: 15px;
 }
 
 .app-modal-window .modal-dialog {
