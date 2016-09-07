@@ -25,6 +25,41 @@ angular.module('myApp').controller('ModalDemoCtrl', function ($uibModal, $log) {
 
   $ctrl.animationsEnabled = true;
 
+  $ctrl.calc = function (size) {
+    var modalInstance = $uibModal.open({
+      animation: $ctrl.animationsEnabled,
+      ariaLabelledBy: 'modal-title',
+      ariaDescribedBy: 'modal-body',
+      templateUrl: 'calc.html',
+      controller: 'ModalInstanceCtrl',
+      controllerAs: '$ctrl',
+      size: size,
+      resolve: {
+        items: function () {
+          return $ctrl.items;
+        }
+      }
+    });
+};
+
+  $ctrl.task = function (size) {
+    var modalInstance = $uibModal.open({
+      animation: $ctrl.animationsEnabled,
+      ariaLabelledBy: 'modal-title',
+      ariaDescribedBy: 'modal-body',
+      templateUrl: 'task.html',
+      controller: 'ModalInstanceCtrl',
+      controllerAs: '$ctrl',
+      size: size,
+      resolve: {
+        items: function () {
+          return $ctrl.items;
+        }
+      }
+    });
+};
+
+
   $ctrl.bob = function (size) {
     var modalInstance = $uibModal.open({
       animation: $ctrl.animationsEnabled,
