@@ -48,7 +48,7 @@ a {
 
 .ghost-button-transition:hover,
 .ghost-button-transition:active {
-   background-color: #fff;
+   background-color: #f6f6f6;
    color: #000;
    transition: background-color 0.3s ease-in,
                color 0.3s ease-in;
@@ -57,7 +57,7 @@ a {
 
 .ghost-button-transition-2 {
  display: inline-block;
- width: 400px;
+ width: 300px;
  padding: 8px;
  margin-left: 50px;
  font-weight: lighter;
@@ -69,7 +69,7 @@ a {
  text-decoration: none;
  transition: background-color 0.2s ease-out,
              color 0.2s ease-out;
-
+font-size: 14px;
 }
 
 .ghost-button-transition-2:hover,
@@ -80,6 +80,7 @@ a {
    transition: background-color 0.3s ease-in,
                color 0.3s ease-in;
    text-decoration: none;
+   background-color: #fafafa;
 }
 
 .ghost-button-transition-3 {
