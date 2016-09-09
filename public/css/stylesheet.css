@@ -75,12 +75,12 @@ font-size: 14px;
 .ghost-button-transition-2:hover,
 .ghost-button-transition-2:active {
    /*background-color: #82A4BF;*/
-   color: #425462;
+   color: white;
    border: 1px solid #425462;
    transition: background-color 0.3s ease-in,
                color 0.3s ease-in;
    text-decoration: none;
-   background-color: #fafafa;
+   background-color: #425462;
 }
 
 .ghost-button-transition-3 {
