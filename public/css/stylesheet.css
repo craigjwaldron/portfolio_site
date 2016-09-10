@@ -293,8 +293,9 @@ font-size: 14px;
 .modal-title {
   text-align: center;
   font-size: 36px;
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: 900;
+  font-weight: bold;
+  color: #425462;
+  font-family: century gothic, gill sans;
   padding: 1em 0 1em 0;
 }
 
