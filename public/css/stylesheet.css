@@ -75,7 +75,6 @@ margin-bottom: 5em;
 
 .ghost-button-transition-2:hover,
 .ghost-button-transition-2:active {
-   /*background-color: #82A4BF;*/
    color: white;
    border: 1px solid #425462;
    transition: background-color 0.3s ease-in,
@@ -102,7 +101,6 @@ margin-bottom: 5em;
 
 .ghost-button-transition-3:hover,
 .ghost-button-transition-3:active {
-   /*background-color: #82A4BF;*/
    color: #425462;
    border: 1px solid #425462;
    transition: background-color 0.3s ease-in,
@@ -317,8 +315,7 @@ margin-bottom: 5em;
 }
 
 .allProjects {
-  padding: 8% 10% 8% 10%;
- /*padding: 10em 10em 5em 10em;*/
+ padding: 8% 10% 8% 10%;
  background-color: #425462;
 }
 
@@ -350,7 +347,6 @@ margin-bottom: 5em;
   display: block;
   position: relative;
   max-width: none;
-  /*width: calc(100% + 20px);*/
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(-10px,0,0);
