@@ -30,20 +30,23 @@ a {
  }
 
 .ghost-button-transition {
- display: inline-block;
- width: 200px;
- padding: 8px;
- margin: 30px;
- font-weight: lighter;
- letter-spacing: 3px;
- color: #fff;
- border: 1px solid #fff;
- text-align: center;
- outline: none;
- text-decoration: none;
- transition: background-color 0.2s ease-out,
-             color 0.2s ease-out;
+   display: inline-block;
+   width: 200px;
+   padding: 8px;
+   margin: 30px;
+   font-weight: lighter;
+   letter-spacing: 3px;
+   color: #fff;
+   border: 1px solid #fff;
+   text-align: center;
+   outline: none;
+   text-decoration: none;
+   transition: background-color 0.2s ease-out,
+               color 0.2s ease-out;
+}
 
+a:active {
+    color: yellow;
 }
 
 .ghost-button-transition:hover,
@@ -69,8 +72,8 @@ a {
  text-decoration: none;
  transition: background-color 0.2s ease-out,
              color 0.2s ease-out;
-font-size: 16px;
-margin-bottom: 3em;
+  font-size: 16px;
+  margin-bottom: 3em;
 }
 
 .ghost-button-transition-2:hover,
@@ -84,19 +87,18 @@ margin-bottom: 3em;
 }
 
 .ghost-button-transition-3 {
- display: inline-block;
- width: 400px;
- padding: 8px;
- font-weight: lighter;
- letter-spacing: 3px;
- color: #A9A9A9;
- border: 1px solid #A9A9A9;
- text-align: center;
- outline: none;
- text-decoration: none;
- transition: background-color 0.2s ease-out,
-             color 0.2s ease-out;
-
+   display: inline-block;
+   width: 400px;
+   padding: 8px;
+   font-weight: lighter;
+   letter-spacing: 3px;
+   color: #A9A9A9;
+   border: 1px solid #A9A9A9;
+   text-align: center;
+   outline: none;
+   text-decoration: none;
+   transition: background-color 0.2s ease-out,
+               color 0.2s ease-out;
 }
 
 .ghost-button-transition-3:hover,
