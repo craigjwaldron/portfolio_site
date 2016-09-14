@@ -103,11 +103,12 @@ a:active {
 
 .ghost-button-transition-3:hover,
 .ghost-button-transition-3:active {
-   color: #425462;
+   color: white;
    border: 1px solid #425462;
    transition: background-color 0.3s ease-in,
                color 0.3s ease-in;
    text-decoration: none;
+   background-color: #425462;
 }
 
 .fa-linkedin:hover {
