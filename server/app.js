@@ -12,7 +12,7 @@ var path = require('path');
 // Home
 app.get('/',function( req, res ){
   console.log( 'at base url' );
-  res.sendFile( path.resolve( 'index.html' ));
+  res.sendFile( path.resolve( 'views/index.html' ));
 });
 
 // Spinning up the server
